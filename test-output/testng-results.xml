@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6" started-at="2021-10-06T22:43:27Z" finished-at="2021-10-06T22:43:27Z">
+  <suite name="Automation Test Suite" duration-ms="14215" started-at="2021-10-06T22:48:13Z" finished-at="2021-10-06T22:48:27Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:maximo.myrunner.ZooplaRunner@3ffcd140]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="6" started-at="2021-10-06T22:43:27Z" finished-at="2021-10-06T22:43:27Z">
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    <test name="Zoopla Login test" duration-ms="14215" started-at="2021-10-06T22:48:13Z" finished-at="2021-10-06T22:48:27Z">
+      <class name="maximo.myrunner.ZooplaRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:maximo.myrunner.ZooplaRunner@3ffcd140]" name="setUpClass" is-config="true" duration-ms="190" started-at="2021-10-06T22:48:13Z" finished-at="2021-10-06T22:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:maximo.myrunner.ZooplaRunner@3ffcd140]" name="feature" duration-ms="13707" started-at="2021-10-06T22:48:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-10-06T22:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User able to login with valid username & password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:maximo.myrunner.ZooplaRunner@3ffcd140]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2021-10-06T22:48:27Z" finished-at="2021-10-06T22:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- maximo.myrunner.ZooplaRunner -->
+    </test> <!-- Zoopla Login test -->
+  </suite> <!-- Automation Test Suite -->
 </testng-results>
