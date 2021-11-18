@@ -5,9 +5,8 @@
 		<listener class-name="maximo.listener.Reporting" />
 	</listeners> 
 	<test name="Zoopla Login test">
-		<classes>
-			 <class name="maximo.myrunner.ZooplaRunner"/>
-			<!--  <class name="maximo.myrunner.MaximoRunner"/> -->
+		<classes>		
+			 <class name="maximo.myrunner.MaximoRunner"/> 
 		</classes>
 	</test>
 </suite>

@@ -118,7 +118,6 @@ public class MasterPageFactoryPage extends SupperClass {
 			MaxsigninBTN.click();
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
-
 			e.printStackTrace();
 		}
 		return login;
@@ -228,6 +227,7 @@ public class MasterPageFactoryPage extends SupperClass {
 	@SuppressWarnings("unused")
 	public String selectElementProperties() {
 		String store = "";
+		
 		List<WebElement> element = driver.findElements(By.xpath("//*[@size='6']"));
 		for (WebElement ele : element) {
 			for (int i = 0; i < element.size(); i++) {
@@ -239,6 +239,7 @@ public class MasterPageFactoryPage extends SupperClass {
 				break;
 			}
 		}
+		
 		return store;
 
 	}
